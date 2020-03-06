@@ -12,7 +12,7 @@
 # Worker Nodes
 --------------
 1. kubelet
-2. kube-proxy : *helps enabling communication between services 
+2. kube-proxy : *helps enabling communication between services* 
 3. container runtime
 
 
