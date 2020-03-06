@@ -2,8 +2,8 @@
 # Master node 
 1. Kube-apiserver
 2. Controller manager 
-    1. Node controller: node monitor period 5 seconds, node monitor grace period 40 seconds. 
-    pod eviction timeout 5m, 
+    1. Node controller: node monitor period 5 seconds, node monitor grace period 40 seconds, 
+    pod eviction timeout 5m 
     2. Replication controller 
     3. Deployment controller
     4. Service-account controller
