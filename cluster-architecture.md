@@ -15,8 +15,7 @@
 3. Etcd 
 4. Kube-scheduler
 
-
-Scheduler only responsible for deciding which pod goes to which node. It actually does not place the pod on the nodes. That is the job of the kubelet. 
+    Scheduler only responsible for deciding which pod goes to which node. It actually does not place the pod on the nodes. That is the job of the kubelet. 
 
 
 # Worker Nodes
