@@ -25,6 +25,8 @@ Scheduler only responsible for deciding which pod goes to which node. It actuall
 
     **kubeadm does not deploy kubelet**. You have to install it manually on your worker nodes. 
 2. kube-proxy : *helps enabling communication between services* 
+
+kube-proxy is a process that runs on each node in the kubernetes cluster. Its job is to look for new services and everytime a new service is created, it creates the appropriate rules on each node to forward traffic to those services to the backend pods.  
 3. container runtime
 
 
