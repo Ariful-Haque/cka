@@ -9,7 +9,8 @@
     4. Service-account controller
     5. Replicaset controller 
     
-    and many more. How do you see them and where are they located? They are all packaged into a single process called **'Kube-controller-manager'** 
+    and many more. How do you see them and where are they located? They are all packaged into a single process called **'Kube-controller-manager'**.
+    
     Where can you see the 'kube-controller-manager' pod defination file? /etc/kubernetes/manifests/
 3. Etcd 
 4. Kube-scheduler
