@@ -12,7 +12,9 @@
     and many more. How do you see them and where are they located? They are all packaged into a single process called **'Kube-controller-manager'** 
     Where can you see the 'kube-controller-manager' pod defination file? /etc/kubernetes/manifests/
 3. Etcd 
-4. Kube-scheduler 
+4. Kube-scheduler
+
+
 Scheduler only responsible for deciding which pod goes to which node. It actually does not place the pod on the nodes. That is the job of the kubelet. 
 
 
