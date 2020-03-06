@@ -21,6 +21,8 @@ Scheduler only responsible for deciding which pod goes to which node. It actuall
 
 # Worker Nodes
 1. kubelet
+
+** kubeadm does not deploy kubelets **. You have to install it manually on your worker nodes. 
 2. kube-proxy : *helps enabling communication between services* 
 3. container runtime
 
