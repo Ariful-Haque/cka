@@ -8,7 +8,7 @@ Kubernetes defination file contains 4 top level fields.
 
 **4. spec**
 
-**Possible values for apiVersion**
+#Possible values for apiVersion
 
 Pod : v1
 
