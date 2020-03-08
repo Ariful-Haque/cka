@@ -1,6 +1,6 @@
 **To create a pod in another name space**
 
- - add namespace under metadata section. line this 
+ - add namespace under metadata section. like this 
  
  apiVersion:
  
@@ -9,4 +9,5 @@
  metatdata: 
  
    name:
+   
    namspace: dev
