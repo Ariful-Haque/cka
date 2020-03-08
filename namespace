@@ -1,5 +1,5 @@
 To create a pod in another namespace
-
+--------------------------------------
  - add namespace under metadata section. like this 
  
  apiVersion:
@@ -7,3 +7,10 @@ To create a pod in another namespace
  metatdata: 
    name:
    namspace: dev
+   
+To switch in another namespace permanently - 
+-------------------------------------------
+$ kubectl config set-context $(kubectl config current-context) --namespace=dev
+
+
+To limit resources in a namespace creat resourceQuota:
