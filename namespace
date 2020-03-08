@@ -6,7 +6,7 @@ To create a pod in another namespace
  kind:
  metatdata: 
    name:
-   namspace: dev
+   namespace: dev
    
 To switch in another namespace permanently - 
 -------------------------------------------
