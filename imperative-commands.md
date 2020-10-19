@@ -16,7 +16,7 @@ as required, instead of creating the files from scratch.
 
 
 
-POD
+<h2>POD </h2>
 Create an NGINX Pod
 
 kubectl run nginx --image=nginx
@@ -29,7 +29,7 @@ kubectl run nginx --image=nginx  --dry-run=client -o yaml
 
 
 
-Deployment
+<h2> Deployment </h2>
 Create a deployment
 
 kubectl create deployment --image=nginx nginx
@@ -42,7 +42,7 @@ Generate Deployment YAML file (-o yaml). Don't create it(--dry-run)
 
 
 
-IMPORTANT:
+<h2> IMPORTANT:
 
 kubectl create deployment does not have a --replicas option. You could first create it and then scale it using the kubectl scale command.
 
