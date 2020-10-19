@@ -56,10 +56,10 @@ You can then update the YAML file with the replicas or any other field before cr
 
 
 
-<h2> Service </h2>
+## Service 
 Create a Service named redis-service of type ClusterIP to expose pod redis on port 6379
 
-<addr> kubectl expose pod redis --port=6379 --name redis-service --dry-run=client -o yaml </addr>
+> kubectl expose pod redis --port=6379 --name redis-service --dry-run=client -o yaml 
 
 (This will automatically use the pod's labels as selectors)
 
