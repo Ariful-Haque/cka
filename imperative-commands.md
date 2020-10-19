@@ -25,7 +25,7 @@ kubectl run nginx --image=nginx
 
 Generate POD Manifest YAML file (-o yaml). Don't create it(--dry-run)
 
-kubectl run nginx --image=nginx  --dry-run=client -o yaml
+> kubectl run nginx --image=nginx  --dry-run=client -o yaml
 
 
 
@@ -77,7 +77,7 @@ Create a Service named nginx of type NodePort to expose pod nginx's port 80 on p
 
 Or
 
-kubectl create service nodeport nginx --tcp=80:80 --node-port=30080 --dry-run=client -o yaml
+> kubectl create service nodeport nginx --tcp=80:80 --node-port=30080 --dry-run=client -o yaml
 
 (This will not use the pods labels as selectors)
 
